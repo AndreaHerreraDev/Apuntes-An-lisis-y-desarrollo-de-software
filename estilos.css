@@ -1,0 +1,20 @@
+.mihead {
+    background-color: #7DB9E8;
+    min-height: 60px;
+    border: 2px solid #7DB9E8;
+}
+.miaside {
+    background: #238399;
+    padding: 20px;
+}
+.mimain { 
+    background-color: #CCFF90; 
+    min-height: 200px;
+}
+.micard{
+    background-color: #FFD97D; 
+    margin-bottom: 10px;
+}
+.mimain.row{
+    height: 400px;
+}
