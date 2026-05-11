@@ -133,3 +133,28 @@ Por ejemplo, un celular en posición vertical.*/
         content: url('imagenx.jpg');
     }
 }
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+´TIPOS DE INPUTS´
+<div class="mb-3">
+        <label for="formFile" class="form-label">Ejemplo de entrada de archivo predeterminado</label>
+        <input class="form-control" type="file" id="formFile">
+    </div>
+    <div class="mb-3">
+        <label for="formFileMultiple" class="form-label">Ejemplo de entrada de varios archivos</label>
+        <input class="form-control" type="file" id="formFileMultiple" multiple>
+    </div>
+    <div class="mb-3">
+        <label for="formFileDisabled" class="form-label">Ejemplo de entrada de archivo deshabilitada</label>
+        <input class="form-control" type="file" id="formFileDisabled" disabled>
+    </div>
+    <div class="mb-3">
+        <label for="formFileSm" class="form-label">Ejemplo de entrada de archivo pequeño</label>
+        <input class="form-control form-control-sm" id="formFileSm" type="file">
+    </div>
+    <div>
+        <label for="formFileLg" class="form-label">Ejemplo de entrada de archivo grande</label>
+        <input class="form-control form-control-lg" id="formFileLg" type="file">
+    </div>
